@@ -1,4 +1,6 @@
 import shutil
+import sys
+
 from converters import *
 from textnode import TextNode
 import os
@@ -29,7 +31,7 @@ def extract_title(markdown):
             return line.strip()
     raise Exception("heading not found", lines)
 
-def generate_page(from_path, template_path, dest_path):
+def generate_page(from_path, template_path, dest_path, basepath):
     print("CWD:", os.getcwd())
     print("ABS dest:", os.path.abspath(dest_path))
     print(f"Generating page from {from_path} to {dest_path} using {template_path}")
@@ -41,12 +43,13 @@ def generate_page(from_path, template_path, dest_path):
     html_string = html_node.to_html()
     title = extract_title(from_file_content)
     page = template_file_content.replace("{{ Title }}", title).replace("{{ Content }}", html_string)
+    page = page.replace('href="/', f'href="{basepath}').replace('src="/', f'src="{basepath}')
     os.makedirs(os.path.dirname(dest_path), exist_ok=True)
     with open(dest_path, "w") as dest_file:
         print("Wrote file OK:", os.path.abspath(dest_path))
         dest_file.write(page)
 
-def generate_pages_recursive(dir_path_content, template_path, dest_dir_path):
+def generate_pages_recursive(dir_path_content, template_path, dest_dir_path, basepath):
     os.makedirs(dest_dir_path, exist_ok=True)
 
     entries = os.listdir(dir_path_content)
@@ -56,7 +59,7 @@ def generate_pages_recursive(dir_path_content, template_path, dest_dir_path):
         dest_path = os.path.join(dest_dir_path, entry)
 
         if os.path.isdir(content_path):
-            generate_pages_recursive(content_path, template_path, dest_path)
+            generate_pages_recursive(content_path, template_path, dest_path, basepath)
             continue
 
         if not entry.endswith(".md"):
@@ -80,11 +83,15 @@ def generate_pages_recursive(dir_path_content, template_path, dest_dir_path):
 
 
 def main():
+    try:
+        basepath = sys.argv[1]
+    except IndexError:
+        basepath = "/"
 
     textNode = TextNode("This is some anchor text", "link", "https://www.boot.dev")
     print(textNode)
     copy_content("static", "public")
-    generate_pages_recursive("content/", "template.html", "public/")
+    generate_pages_recursive("content/", "template.html", "docs/", basepath)
 
 print("CWD:", os.getcwd())
 print("public exists?", os.path.exists("public"))

@@ -1,33 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="983f52ab-62e5-4471-8a89-09a3f6f1b84b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/static_site_generator.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/blog/glorfindel/index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/blog/majesty/index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/blog/tom/index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/contact/index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/blocktype.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/converters.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/htmlnode.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test_converters.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test_htmlnode.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test_textnode.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/textnode.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.sh" afterDir="false" />
+    <list default="true" id="983f52ab-62e5-4471-8a89-09a3f6f1b84b" name="Changes" comment="making it">
+      <change afterPath="$PROJECT_DIR$/build.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,6 +108,15 @@
       <workItem from="1768685003057" duration="5547000" />
       <workItem from="1768815146639" duration="12139000" />
     </task>
+    <task id="LOCAL-00001" summary="making it">
+      <option name="closed" value="true" />
+      <created>1771164005751</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1771164005751</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,6 +132,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="making it" />
+    <option name="LAST_COMMIT_MESSAGE" value="making it" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/static_site_generator$main.coverage" NAME="main Coverage Results" MODIFIED="1768723478297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
