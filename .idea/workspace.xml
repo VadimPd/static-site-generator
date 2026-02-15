@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="983f52ab-62e5-4471-8a89-09a3f6f1b84b" name="Changes" comment="added docs">
-      <change afterPath="$PROJECT_DIR$/.nojekyll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="983f52ab-62e5-4471-8a89-09a3f6f1b84b" name="Changes" comment="added nojekyll" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -123,7 +120,15 @@
       <option name="project" value="LOCAL" />
       <updated>1771165172441</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added nojekyll">
+      <option name="closed" value="true" />
+      <created>1771165599919</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1771165599919</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,7 +148,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="making it" />
     <MESSAGE value="added docs" />
-    <option name="LAST_COMMIT_MESSAGE" value="added docs" />
+    <MESSAGE value="added nojekyll" />
+    <option name="LAST_COMMIT_MESSAGE" value="added nojekyll" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/static_site_generator$main.coverage" NAME="main Coverage Results" MODIFIED="1768723478297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
