@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="983f52ab-62e5-4471-8a89-09a3f6f1b84b" name="Changes" comment="added nojekyll" />
+    <list default="true" id="983f52ab-62e5-4471-8a89-09a3f6f1b84b" name="Changes" comment="deleted nojekyll" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -128,7 +128,15 @@
       <option name="project" value="LOCAL" />
       <updated>1771165599919</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="deleted nojekyll">
+      <option name="closed" value="true" />
+      <created>1771166078906</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1771166078906</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,7 +157,8 @@
     <MESSAGE value="making it" />
     <MESSAGE value="added docs" />
     <MESSAGE value="added nojekyll" />
-    <option name="LAST_COMMIT_MESSAGE" value="added nojekyll" />
+    <MESSAGE value="deleted nojekyll" />
+    <option name="LAST_COMMIT_MESSAGE" value="deleted nojekyll" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/static_site_generator$main.coverage" NAME="main Coverage Results" MODIFIED="1768723478297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
